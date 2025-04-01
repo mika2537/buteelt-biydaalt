@@ -28,5 +28,5 @@ jobs:
         run: ls -R
 
       - name: Build with Maven
-        run: mvn -B clean install
+        run: mvn clean install
         working-directory: my-java-project  # Change this if needed
