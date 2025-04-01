@@ -24,10 +24,5 @@ jobs:
           java-version: '23'
           distribution: 'temurin'
 
-      - name: Debug: List repository contents
-        run: ls -R
-
       - name: Build with Maven
-        run: |
-          cd my-java-project  # Change this if needed
-          mvn clean install
+        run: mvn clean install
