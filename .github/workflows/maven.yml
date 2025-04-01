@@ -30,7 +30,7 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-maven-
 
-      - name: Verify directory structure
+      - name: Verify repository structure
         run: ls -R
 
       - name: Build with Maven
